@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Minggu 3</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="reminder">Reminder Name</string>
+    <string name="done">Done</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string-array name="dateSpinner">
+        <item>Wed, June 20, 2012</item>
+        <item>Tue, June 21, 2012</item>
+    </string-array>
+
+    <string-array name="timeSpinner">
+        <item>8:00am</item>
+        <item>9:00am</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:viewportWidth="500"
+    android:viewportHeight="500"
+    android:width="50dp"
+    android:height="50dp">
+    <path
+        android:pathData="M495.18 250.63A244.67 244.67 0 0 1 5.84 250.63A244.67 244.67 0 0 1 495.18 250.63Z">
+        <aapt:attr
+            name="android:fillColor">
+            <gradient
+                android:startX="16.9897"
+                android:startY="323.8557"
+                android:endX="484.0287"
+                android:endY="177.3997"
+                android:tileMode="clamp">
+                <item
+                    android:color="#F9ED32"
+                    android:offset="0" />
+                <item
+                    android:color="#EF4136"
+                    android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M495.18 250.63A244.67 244.67 0 0 1 5.84 250.63A244.67 244.67 0 0 1 495.18 250.63Z"
+        android:strokeColor="#2B2929"
+        android:strokeWidth="9"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <group
+        android:translateX="171.0001"
+        android:translateY="338.5715">
+        <path
+            android:pathData="M71.04492 -114.8438L71.04492 -114.8438Q105.0293 -114.8438 121.6553 -100.9277Q138.2813 -87.01172 138.2813 -58.44727L138.2813 -58.44727Q138.2813 -28.85742 120.2637 -12.96387Q102.2461 2.929688 68.70117 2.929688L68.70117 2.929688Q40.86914 2.929688 19.04297 -3.369141L19.04297 -3.369141L17.43164 -44.67773L27.09961 -44.67773L33.69141 -17.13867Q40.13672 -13.62305 49.14551 -11.42578Q58.1543 -9.228516 66.35742 -9.228516L66.35742 -9.228516Q89.50195 -9.228516 100.415 -20.1416Q111.3281 -31.05469 111.3281 -56.98242L111.3281 -56.98242Q111.3281 -75.14648 106.6406 -84.44824Q101.9531 -93.75 91.69922 -98.14453Q81.44531 -102.5391 64.16016 -102.5391L64.16016 -102.5391Q50.83008 -102.5391 38.08594 -99.02344L38.08594 -99.02344L24.02344 -99.02344L24.02344 -196.4355L123.6328 -196.4355L123.6328 -174.0234L37.20703 -174.0234L37.20703 -111.3281Q53.02734 -114.8438 71.04492 -114.8438Z"
+            android:fillColor="#FFFFFF" />
+    </group>
+</vector>
