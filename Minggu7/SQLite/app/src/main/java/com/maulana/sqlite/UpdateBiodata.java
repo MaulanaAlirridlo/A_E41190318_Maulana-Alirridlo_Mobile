@@ -26,7 +26,7 @@ public class UpdateBiodata extends AppCompatActivity {
         text3 = findViewById(R.id.editText3);
         text4 = findViewById(R.id.editText4);
         text5 = findViewById(R.id.editText5);
-        SQLiteDatabase db = dbHelper.getWritableDatabase();
+        SQLiteDatabase db = dbHelper.getReadableDatabase();
         cursor = db.rawQuery("select * from biodata where nama = '"+
                 getIntent().getStringExtra("nama")+"'", null);
         cursor.moveToFirst();
@@ -55,11 +55,8 @@ public class UpdateBiodata extends AppCompatActivity {
                 finish();
             }
         });
-        ton2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
+        ton2.setOnClickListener((arg0) -> {
+            finish();
         });
     }
 }

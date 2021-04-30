@@ -44,11 +44,8 @@ public class BuatBiodata extends AppCompatActivity {
                 finish();
             }
         });
-        ton2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        ton2.setOnClickListener((arg0) -> {
                 finish();
-            }
         });
     }
 }
